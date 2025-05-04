@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lights, Camera, Action!</title>
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div id="movieModal">
+        <div style="background-color: white; color: black; padding: 20px; border-radius: 10px; max-width: 500px;">
+            <h2 id="modalTitle"></h2>
+            <p id="modalOverview"></p>
+            <button id="modalButton" onclick="document.getElementById('movieModal').style.display='none'">닫기</button>
+        </div>
+    </div>
+
+    <header>
+        <form class="search"> <!-- 사용자 입력 받기 위한 태그 -->
+            <input class="searchBox" id="searchBox" type="text" />
+            <button class="searchButton" id="searchButton" type="submit">search</button>
+        </form>
+        <div class="site">
+            <a class="siteText">Lights, Camera, Action!</a>
+        </div>
+
+    </header>
+    <div>
+        <div class="cardBox" id="cardBox">
+            <!-- 여기에 JS로 카드를 계속 추가할 예정 -->
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
